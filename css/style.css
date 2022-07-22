@@ -18,15 +18,20 @@
   }
 }
 
-#welcome-section {
-  height: 100%;
-}
-
 #navbar {
+  z-index: 2;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
+}
+
+#welcome-section {
+  position: relative;
+  z-index: 1;
+  margin-top: 60px;
+  height: 100vh;
+  width: 100%;;
 }
 
 .nav-link {
@@ -35,4 +40,12 @@
 
 .navbar-brand {
   color: white;
+}
+
+.row {
+  background-color: #F8F9FA;
+}
+
+.container {
+  background-color: #ffffff;
 }
